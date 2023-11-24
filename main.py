@@ -14,8 +14,13 @@ running = True
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            running = false
+            running = False
+class Player(pygame.sprite.Sprite):
 
+    def
 
+screen = pygame.display.set_mode((1024, 720))
 
-
+running = True
+while running:
+    screen.blits(background, dest: (0, -200))
